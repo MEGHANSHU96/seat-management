@@ -8,6 +8,7 @@ spec:
     app: seat-management-api
   ports:
     - protocol: TCP
+      name: http
       port: 8080
       targetPort: 8080
       nodePort: 30080
