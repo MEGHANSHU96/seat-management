@@ -1,0 +1,5 @@
+---
+- name: Deploy Seat Management API locally
+  hosts: local
+  roles:
+    - seat_api

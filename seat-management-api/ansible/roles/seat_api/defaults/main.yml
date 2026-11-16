@@ -1,0 +1,5 @@
+---
+app_directory: "{{ ansible_env.HOME }}/seat-management-deploy"
+jar_source: "{{ playbook_dir }}/../build/libs/seat-management-api-1.0.0.jar"
+jar_dest_name: "seat-management-api-1.0.0.jar"
+app_port: 8080

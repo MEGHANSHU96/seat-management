@@ -1,0 +1,3 @@
+---
+- name: Restart Seat API
+  ansible.builtin.shell: "{{ app_directory }}/run-app.sh restart"
